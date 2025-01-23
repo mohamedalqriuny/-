@@ -1,0 +1,148 @@
+/* General Reset */
+
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 100;
+    padding: 50;
+    box-sizing: border-box;
+   
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #d81313;
+    background: url(IMG/IMG8.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(16, 13, 13);
+   
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 40px;
+    font-weight:bold;
+    padding: 10px 200px;
+    
+  
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 10px 200px;
+    font-size: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #000;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #000;
+  
+   
+}
+
+#home {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    border: 10px solid #000;
+}
+
+#products .product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#products .product {
+    background-color: #fff;
+  
+    border: 1px solid #fff;
+    border-radius: 1px;
+    padding: 70px;
+    text-align: center;
+    width: 200px;
+}
+
+#products .product img {
+    max-width: 100%;
+    border-bottom: 50px solid #ddd;
+    margin-bottom: 30px;
+}
+
+#about {
+    text-align: center;
+    background-color: #000;
+  
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #000;
+}
+
+#contact form label {
+    font-weight: bold;
+}
+
+#contact form input, #contact form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#contact form button {
+    padding: 10px;
+    background-color: #000;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact form button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+}
