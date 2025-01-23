@@ -1,0 +1,41 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button.record {
+      background: #ff4b5c;
+      color: white;
+    }
+
+    button.stop {
+      background: #4caf50;
+      color: white;
+    }
+
+    button.download {
+      background: #2196f3;
+      color: white;
+    }
+
+    audio {
+      margin-top: 20px;
+      width: 80%;
+    
